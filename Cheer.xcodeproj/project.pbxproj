@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0710E13DFF38755520368A43 /* Pods_Cheer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D284131394D4339EA67D84 /* Pods_Cheer.framework */; };
 		8F0BBF27270EEA9F00499E41 /* CheerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BBF26270EEA9F00499E41 /* CheerApp.swift */; };
 		8F0BBF29270EEA9F00499E41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BBF28270EEA9F00499E41 /* ContentView.swift */; };
 		8F0BBF2B270EEAA000499E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BBF2A270EEAA000499E41 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 		8F0BBF38270EEAA100499E41 /* CheerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BBF37270EEAA100499E41 /* CheerTests.swift */; };
 		8F0BBF42270EEAA100499E41 /* CheerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BBF41270EEAA100499E41 /* CheerUITests.swift */; };
 		8F0BBF44270EEAA100499E41 /* CheerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BBF43270EEAA100499E41 /* CheerUITestsLaunchTests.swift */; };
+		8F0BBF51270EEAB500499E41 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BBF50270EEAB500499E41 /* WebView.swift */; };
+		8F0BBF542710801900499E41 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BBF532710801900499E41 /* Collection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		73D284131394D4339EA67D84 /* Pods_Cheer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cheer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88655C80B1B9368D54AB9F63 /* Pods-Cheer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheer.release.xcconfig"; path = "Target Support Files/Pods-Cheer/Pods-Cheer.release.xcconfig"; sourceTree = "<group>"; };
 		8F0BBF23270EEA9F00499E41 /* Cheer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cheer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0BBF26270EEA9F00499E41 /* CheerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheerApp.swift; sourceTree = "<group>"; };
 		8F0BBF28270EEA9F00499E41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +49,9 @@
 		8F0BBF3D270EEAA100499E41 /* CheerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0BBF41270EEAA100499E41 /* CheerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheerUITests.swift; sourceTree = "<group>"; };
 		8F0BBF43270EEAA100499E41 /* CheerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8F0BBF50270EEAB500499E41 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		8F0BBF532710801900499E41 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		933FCFC3FD3822D17B1A803A /* Pods-Cheer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheer.debug.xcconfig"; path = "Target Support Files/Pods-Cheer/Pods-Cheer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0710E13DFF38755520368A43 /* Pods_Cheer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +87,8 @@
 				8F0BBF36270EEAA100499E41 /* CheerTests */,
 				8F0BBF40270EEAA100499E41 /* CheerUITests */,
 				8F0BBF24270EEA9F00499E41 /* Products */,
+				C0F52405C3F030D517913A76 /* Pods */,
+				BEBC7004EE5FCC769F08DBD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +105,12 @@
 		8F0BBF25270EEA9F00499E41 /* Cheer */ = {
 			isa = PBXGroup;
 			children = (
+				8F0BBF5227107FCB00499E41 /* Models */,
 				8F0BBF26270EEA9F00499E41 /* CheerApp.swift */,
 				8F0BBF28270EEA9F00499E41 /* ContentView.swift */,
 				8F0BBF2A270EEAA000499E41 /* Assets.xcassets */,
 				8F0BBF2C270EEAA000499E41 /* Preview Content */,
+				8F0BBF50270EEAB500499E41 /* WebView.swift */,
 			);
 			path = Cheer;
 			sourceTree = "<group>";
@@ -127,6 +140,31 @@
 			path = CheerUITests;
 			sourceTree = "<group>";
 		};
+		8F0BBF5227107FCB00499E41 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F0BBF532710801900499E41 /* Collection.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BEBC7004EE5FCC769F08DBD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73D284131394D4339EA67D84 /* Pods_Cheer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0F52405C3F030D517913A76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				933FCFC3FD3822D17B1A803A /* Pods-Cheer.debug.xcconfig */,
+				88655C80B1B9368D54AB9F63 /* Pods-Cheer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F0BBF47270EEAA100499E41 /* Build configuration list for PBXNativeTarget "Cheer" */;
 			buildPhases = (
+				B04CCA6CF24264EB142740F1 /* [CP] Check Pods Manifest.lock */,
 				8F0BBF1F270EEA9F00499E41 /* Sources */,
 				8F0BBF20270EEA9F00499E41 /* Frameworks */,
 				8F0BBF21270EEA9F00499E41 /* Resources */,
+				327837D5898007B34AB20A8A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,13 +292,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		327837D5898007B34AB20A8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cheer/Pods-Cheer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cheer/Pods-Cheer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cheer/Pods-Cheer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B04CCA6CF24264EB142740F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cheer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8F0BBF1F270EEA9F00499E41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F0BBF51270EEAB500499E41 /* WebView.swift in Sources */,
 				8F0BBF29270EEA9F00499E41 /* ContentView.swift in Sources */,
 				8F0BBF27270EEA9F00499E41 /* CheerApp.swift in Sources */,
+				8F0BBF542710801900499E41 /* Collection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,12 +497,14 @@
 		};
 		8F0BBF48270EEAA100499E41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933FCFC3FD3822D17B1A803A /* Pods-Cheer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Cheer/Preview Content\"";
+				DEVELOPMENT_TEAM = 4SPKGZ2H26;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -442,12 +528,14 @@
 		};
 		8F0BBF49270EEAA100499E41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88655C80B1B9368D54AB9F63 /* Pods-Cheer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Cheer/Preview Content\"";
+				DEVELOPMENT_TEAM = 4SPKGZ2H26;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
